@@ -1,11 +1,11 @@
 header {
     float: left;
   padding: 20px;
-  margin-left: 250px;
-  font-size: 25px;
+  margin-left: 400px;
+  font-size: 18px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 12%;
-  height: 50px;
+  width: 17%;
+  height: 25px;
   color: #ffffff;
   background: #4aaaa5;
  }
@@ -24,16 +24,72 @@ li {
 li a {
   display: inline-block;
   color: lightgray;
-  text-align: center;
+  text-align: bottom;
+  margin-left: 100px;
   padding: 14px 16px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-li a:hover {
-  background-color: #111;
+.box {
+    border-top: 4px solid lightgray;
+  width: 1100%;
+  height: 500px;
+  background-image: url(../images/sakura.png);
+  clear: both;
 }
 
-.active {
-  background-color:aqua;
+input {
+    width: 90%
+}
+
+.textarea {
+    width: 940px;
+  height: 300px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+}
+
+aside { 
+  background: #fff;
+  position: absolute;
+  top: 10%;
+  width: 960px;
+  height: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  margin-left: 400px; 
+  border : 1px solid #eee;
+}
+   
+h1 {
+  color: #4aaaa5;
+ font-size: 25px;
+ border-bottom: 3px solid lightgray;
+
+}
+
+.comment {
+    width: 900px;
+    height: 200px;
+}
+
+
+.button {
+    background-color: #4aaaa5;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+footer {
+background: #666666;
+border-top: 7px solid #4aaaa5;
+clear: both;
+width: 100%px;
+height: 25px;
+padding: 20px;
 }
