@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 header {
     float: left;
   padding: 20px;
@@ -74,8 +78,8 @@ h1 {
 }
 
 .comment {
-    width: 900px;
-    height: 200px;
+    width: 865px;
+    height: 150px;
 }
 
 
