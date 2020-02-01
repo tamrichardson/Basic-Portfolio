@@ -2,20 +2,21 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  background-image: url(../images/sakura.png)
 }
 header {
   margin: 0 auto;
     padding-bottom: 40px;
-    margin-left: 200px;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
-    max-width: 960px;
     height: 40px;
     color: #ffffff;
+    background-color: white;
   }
 
    #logo {
+     float: left;
      padding-top: 10px;
      padding-bottom: 10px;
      text-align: bottom;
@@ -83,6 +84,7 @@ h1 {
 
 footer {
   background: #666666;
+  position: fixed;
   border-top: 8px solid #4aaaa5;
   clear: both;
   width: 100%;
