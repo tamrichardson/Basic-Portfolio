@@ -82,7 +82,7 @@ img {
 
 .column {
   float: left;
-  width: 40%;
+  width: 200px;
   padding: 10px;
 }
 
@@ -93,13 +93,105 @@ img {
   clear: both;
 }
 
+.hangman{
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.hangman .text{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 60%; /* Adjust this value to move the positioned div up and down */
+  background: #4aaaa5;
+  font-family: Arial,sans-serif;
+  color: #fff;
+  width: 100%; /* Set the width of the positioned div */
+}
    
+.trivia{
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.trivia .text2{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 30%; /* Adjust this value to move the positioned div up and down */
+  background: #4aaaa5;
+  font-family: Arial,sans-serif;
+  color: #fff;
+  width: 100%; /* Set the width of the positioned div */
+}
+
 h1 {
   color: #4aaaa5;
  font-size: 25px;
  border-bottom: 3px solid lightgray;
 }
 
+h2{
+  font-size: 18px;
+}
+
+.rps{
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.rps .text3{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 60%; /* Adjust this value to move the positioned div up and down */
+  background: #4aaaa5;
+  font-family: Arial,sans-serif;
+  color: #fff;
+  width: 100%; /* Set the width of the positioned div */
+}
+
+.rpg{
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.rpg .text4{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 60%; /* Adjust this value to move the positioned div up and down */
+  background: #4aaaa5;
+  font-family: Arial,sans-serif;
+  color: #fff;
+  width: 100%; /* Set the width of the positioned div */
+}
+
+.rutgers{
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.rutgers .text5{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;        
+  text-align: center;
+  top: 60%; /* Adjust this value to move the positioned div up and down */
+  background: #4aaaa5;
+  font-family: Arial,sans-serif;
+  color: #fff;
+  width: 100%; /* Set the width of the positioned div */
+}
 
 footer {
   background: #666666;
