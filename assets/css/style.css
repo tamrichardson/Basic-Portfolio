@@ -2,17 +2,19 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  background-image: url(../images/sakura.png)
-}
-header {
+  background-image: url(../images/sakura.png);
+  }
+
+  header {
   margin: 0 auto;
     padding-bottom: 40px;
     padding-top: 22px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+   
     width: 100%;
     height: 15px;
     color: #ffffff;
     background-color: white;
+    border-bottom: 4px solid #dddddd;
   }
 
    #logo {
@@ -24,6 +26,13 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     overflow: hidden;
      background: #4aaaa5;
+    }
+
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #777777;
+      font-size: 20px;
+      padding: 20px;
     }
    
    .container {
@@ -42,7 +51,7 @@ header {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
-  
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .topnav a:hover {
@@ -51,7 +60,6 @@ header {
   }
 
 .box {
-  border-top: 4px solid lightgray; 
     width: 100%;
     height: 500px;
     background-image: url(../images/sakura.png);
@@ -64,7 +72,7 @@ aside {
     top: 10%;
     width: 100%;
     max-width: 960px;
-    height: 400px;
+    height: 600px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
     margin-left: 475px; 
@@ -74,13 +82,15 @@ aside {
 img { 
      float: left;
      height: 200px;
-     width: 200px
+     width: 200px;
+     padding: 20px;
  }   
 
 h1 {
     color: #4aaaa5;
    font-size: 25px;
    border-bottom: 3px solid lightgray;
+   padding: 10px;
 }
 
 .site-container {
