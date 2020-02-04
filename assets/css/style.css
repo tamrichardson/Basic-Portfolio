@@ -50,9 +50,11 @@ body {
     color:lightgray;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     border-right: lightgray solid 1px;
+    height: 5px;
+
   }
 
   .topnav a:first-child {
@@ -72,7 +74,7 @@ body {
 }
 
 aside { 
-    background: #fff;
+    background-color: #ffffff;
     position: absolute;
     top: 10%;
     width: 100%;
@@ -81,7 +83,7 @@ aside {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
     margin-left: 475px; 
-    border : 1px solid #eee;
+    border: 1px solid #eee;
 }
 
 img { 
